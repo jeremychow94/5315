@@ -19,11 +19,11 @@
              $(xml).find('data').each(function(){  
               t.row.add( [
                 $(this).find('name').text(),
-                $(this).find('designation').text(),
-                $(this).find('office').text(),
-                $(this).find('extension').text(),
-                $(this).find('joining_date').text(),
-                $(this).find('salary').text()
+                $(this).find('Gender').text(),
+                $(this).find('Shoe_Size').text(),
+                $(this).find('Number_of_Pets').text(),
+                $(this).find('Dream_Vacation').text(),
+                $(this).find('Favorite_Sport').text()
               ] ).draw( false );
              });
             }
@@ -36,23 +36,23 @@
   <table id="chart" class="display" cellspacing="0" width="100%">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Designation</th>
-            <th>Office</th>
-            <th>Extension</th>
-            <th>Joining Date</th>
-            <th>Salary</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Shoe Size</th>
+                <th>Number of Pets</th>
+                <th>Dream Vacation</th>
+                <th>Favorite Sport</th>
         </tr>
     </thead>
 
     <tfoot>
         <tr>
-            <th>Name</th>
-            <th>Designation</th>
-            <th>Office</th>
-            <th>Extension</th>
-            <th>Joining Date</th>
-            <th>Salary</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Shoe Size</th>
+                <th>Number of Pets</th>
+                <th>Dream Vacation</th>
+                <th>Favorite Sport</th>
         </tr>
     </tfoot>
   </table>
