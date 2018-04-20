@@ -9,7 +9,7 @@
       "Favorite_Color": "blue"
     },
     {
-       "Name": "Sharon Chow",
+      "Name": "Sharon Chow",
       "Nickname": "Sherbear",
       "Number_of_Siblings": "10",
       "Date_of_Birth": "1945/06/21",
